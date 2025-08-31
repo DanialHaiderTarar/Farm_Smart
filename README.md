@@ -298,12 +298,6 @@ curl http://localhost:8000/api/v1/health
 - **Transfer Learning**: Pre-trained on ImageNet, fine-tuned on grains
 - **Feature Rich**: 768-dimensional feature vectors (ViT Base)
 
-### Advantages over CNNs
-- Better handling of grain texture variations
-- Superior performance on fine-grained classification
-- More interpretable attention patterns
-- Robust to image orientation and scale
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
