@@ -321,11 +321,7 @@ curl http://localhost:8000/api/v1/health
 - Superior performance on fine-grained classification
 - More interpretable attention patterns
 - Robust to image orientation and scale
-## python "F:\wheat-classification-system\scripts\test_wheat_classifier.py" --model-path "F:\wheat-classification-system\models\wheat_classifier_vit_small_patch16_224_20250620_095332.pth" --test-data-dir "F:\wheat-classification-system\data\classification\test" --batch-size 96 --img-size 224 --output-dir "F:\wheat-classification-system\test_results" --mixed-precision --num-workers 12
-## 
-## python scripts/prepare_dataset.py --data-dir data/train/images --labels-dir data/train/labels --output-dir data/classification
-## python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-## ./test.sh
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
