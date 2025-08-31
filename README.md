@@ -325,7 +325,3 @@ curl http://localhost:8000/api/v1/health
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Made with Vision Transformers for better wheat quality assessment
