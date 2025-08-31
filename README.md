@@ -290,14 +290,6 @@ curl http://localhost:8000/api/v1/health
 - Use smaller ViT model for speed: `vit_small_patch16_224`
 - Enable feature caching for repeated analysis
 
-## 🧠 Model Architecture
-
-### Vision Transformer Features
-- **Self-Attention**: Captures global relationships in grain images
-- **Patch-based Processing**: Analyzes grain texture at multiple scales
-- **Transfer Learning**: Pre-trained on ImageNet, fine-tuned on grains
-- **Feature Rich**: 768-dimensional feature vectors (ViT Base)
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
