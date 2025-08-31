@@ -58,6 +58,9 @@ cp .env.example .env
 
 ## 📊 Data Preparation
 
+- Dataset is publicly available on RoboFlow
+https://universe.roboflow.com/first-pijnk/wheat-quality-detection/dataset/2/download
+
 ### Dataset Structure
 ```
 data/
@@ -271,28 +274,6 @@ curl -X POST "http://localhost:8000/api/v1/classify-grain" \
 ```bash
 curl http://localhost:8000/api/v1/health
 ```
-
-## 🔍 Troubleshooting
-
-### Common Issues
-
-1. **CUDA not available**
-   - System automatically falls back to CPU
-   - To force CPU: set `USE_GPU=False` in `.env`
-
-2. **Model files not found**
-   - Ensure model is trained: `python scripts/train_classifier.py`
-   - Check model path in `models/` directory
-
-3. **Out of memory**
-   - Reduce `BATCH_SIZE` in configuration
-   - Use smaller model: `vit_small_patch16_224`
-
-4. **Low accuracy**
-   - Ensure proper data preparation
-   - Increase training epochs
-   - Use data augmentation
-   - Check class balance in dataset
 
 ## 📈 Performance
 
