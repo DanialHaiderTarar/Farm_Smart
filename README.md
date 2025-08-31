@@ -269,20 +269,6 @@ curl -X POST "http://localhost:8000/api/v1/classify-grain" \
 curl http://localhost:8000/api/v1/health
 ```
 
-## 📈 Performance
-
-### Benchmarks (ViT Base)
-- **Classification**: ~20ms per grain (GPU) / ~50ms (CPU)
-- **Feature Extraction**: ~25ms per grain (GPU) / ~60ms (CPU)
-- **Batch Processing**: ~5ms per grain (GPU batch of 32)
-- **API Overhead**: ~2-5ms
-
-### Optimization Tips
-- Use GPU for faster processing
-- Process multiple grains in batches
-- Use smaller ViT model for speed: `vit_small_patch16_224`
-- Enable feature caching for repeated analysis
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
