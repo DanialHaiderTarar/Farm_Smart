@@ -1,0 +1,19 @@
+Vision Transformer Classification API Test Summary
+Test Date: Wed, Jun 25, 2025  7:12:07 PM
+Base URL: http://localhost:8000
+Test Image 1: data/test/images/0000020_jpg.rf.adb61ea3435546f5f3333c46dc9a2b2d.jpg
+Test Image 2: data/test/images/train_wheat_100_jpg.rf.4ad13fa54509c3ec305877549e120f64.jpg
+Test Image 3: data/test/images/IMG20211024100708_1800_1200_jpg.rf.7171a1ae5c4e9add89c3c679a2c1fc94.jpg
+
+Files Generated:
+api_test_results/batch_full_2025-06-25_19-11-49.json
+api_test_results/batch_minimal_2025-06-25_19-11-49.json
+api_test_results/features_both_2025-06-25_19-11-49.json
+api_test_results/features_traditional_2025-06-25_19-11-49.json
+api_test_results/features_vit_2025-06-25_19-11-49.json
+api_test_results/health_check_2025-06-25_19-11-49.json
+api_test_results/model_info_2025-06-25_19-11-49.json
+api_test_results/single_basic_2025-06-25_19-11-49.json
+api_test_results/single_full_2025-06-25_19-11-49.json
+api_test_results/single_minimal_2025-06-25_19-11-49.json
+api_test_results/test_summary_2025-06-25_19-11-49.txt

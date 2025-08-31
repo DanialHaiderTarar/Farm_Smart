@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-06-21T01:21:57.203304",
+  "overall_accuracy": 0.950439648281375,
+  "per_class_accuracy": {
+    "bad_seed": 0.9801222715437643,
+    "healthy_seed": 0.8858138328102992,
+    "impurity": 0.9733555370524563
+  },
+  "total_samples": 128853,
+  "misclassified_samples": 6386,
+  "misclassification_rate": 0.0495603517186251,
+  "confusion_matrix": [
+    [
+      85450,
+      1527,
+      206
+    ],
+    [
+      4606,
+      35848,
+      15
+    ],
+    [
+      25,
+      7,
+      1169
+    ]
+  ],
+  "class_names": [
+    "bad_seed",
+    "healthy_seed",
+    "impurity"
+  ],
+  "confidence_stats": {
+    "average_confidence": 0.8955078125,
+    "correct_predictions_avg_confidence": 0.90771484375,
+    "incorrect_predictions_avg_confidence": 0.666015625,
+    "high_confidence_correct": 105202,
+    "low_confidence_correct": 5468,
+    "high_confidence_incorrect": 259
+  }
+}
