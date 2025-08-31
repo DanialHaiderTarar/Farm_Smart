@@ -58,8 +58,9 @@ cp .env.example .env
 
 ## 📊 Data Preparation
 
-- Dataset is publicly available on RoboFlow
+- Take dataset from this link (
 https://universe.roboflow.com/first-pijnk/wheat-quality-detection/dataset/2/download
+)
 
 ### Dataset Structure
 ```
