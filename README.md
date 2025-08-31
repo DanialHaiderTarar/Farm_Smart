@@ -22,13 +22,6 @@ This project provides a complete solution for automated wheat grain quality asse
 - ✅ GPU acceleration support with automatic CPU fallback
 - ✅ Enhanced preprocessing for optimal grain analysis
 
-## 📋 Requirements
-
-- Python 3.10+
-- CUDA-capable GPU (optional, for faster processing)
-- 8GB+ RAM recommended
-- 5GB+ free disk space
-
 ## 🛠️ Installation
 
 ### Local Installation
